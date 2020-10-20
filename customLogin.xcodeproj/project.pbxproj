@@ -11,6 +11,7 @@
 		D6610014253F33E100E42061 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6610013253F33E100E42061 /* SignUpViewController.swift */; };
 		D6610019253F33F600E42061 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6610018253F33F600E42061 /* LogInViewController.swift */; };
 		D661001E253F340A00E42061 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D661001D253F340A00E42061 /* HomeViewController.swift */; };
+		D6610027253F78BE00E42061 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6610026253F78BE00E42061 /* Utilities.swift */; };
 		D661FFE1253F335700E42061 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D661FFE0253F335700E42061 /* AppDelegate.swift */; };
 		D661FFE3253F335700E42061 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D661FFE2253F335700E42061 /* SceneDelegate.swift */; };
 		D661FFE5253F335700E42061 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D661FFE4253F335700E42061 /* ViewController.swift */; };
@@ -43,6 +44,7 @@
 		D6610013253F33E100E42061 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D6610018253F33F600E42061 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		D661001D253F340A00E42061 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D6610026253F78BE00E42061 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		D661FFDD253F335700E42061 /* customLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D661FFE0253F335700E42061 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D661FFE2253F335700E42061 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,14 @@
 			path = "View Controllers";
 			sourceTree = "<group>";
 		};
+		D661002B253F78C400E42061 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D6610026253F78BE00E42061 /* Utilities.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		D661FFD4253F335700E42061 = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +137,7 @@
 			children = (
 				D661FFE0253F335700E42061 /* AppDelegate.swift */,
 				D661FFE2253F335700E42061 /* SceneDelegate.swift */,
+				D661002B253F78C400E42061 /* Helpers */,
 				D6610022253F342300E42061 /* View Controllers */,
 				D661FFE6253F335700E42061 /* Main.storyboard */,
 				D661FFE9253F336000E42061 /* Assets.xcassets */,
@@ -277,6 +288,7 @@
 			files = (
 				D661FFE5253F335700E42061 /* ViewController.swift in Sources */,
 				D661FFE1253F335700E42061 /* AppDelegate.swift in Sources */,
+				D6610027253F78BE00E42061 /* Utilities.swift in Sources */,
 				D6610014253F33E100E42061 /* SignUpViewController.swift in Sources */,
 				D6610019253F33F600E42061 /* LogInViewController.swift in Sources */,
 				D661FFE3253F335700E42061 /* SceneDelegate.swift in Sources */,
