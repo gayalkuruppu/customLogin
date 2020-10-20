@@ -8,7 +8,15 @@
 import UIKit
 
 class LogInViewController: UIViewController {
-
+    
+    @IBOutlet var emailTextField: UITextField!
+    
+    @IBOutlet var passwordTextField: UITextField!
+    
+    @IBOutlet var logInButton: UIButton!
+    
+    @IBOutlet var errorLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,4 +34,7 @@ class LogInViewController: UIViewController {
     }
     */
 
+    @IBAction func logInTapped(_ sender: Any) {
+    }
+    
 }
