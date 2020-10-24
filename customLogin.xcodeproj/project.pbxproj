@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,6 +23,7 @@
 		D661FFEA253F336000E42061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D661FFE9253F336000E42061 /* Assets.xcassets */; };
 		D661FFED253F336000E42061 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D661FFEB253F336000E42061 /* LaunchScreen.storyboard */; };
 		D661FFF8253F336100E42061 /* customLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D661FFF7253F336100E42061 /* customLoginTests.swift */; };
+		D6A97D1225447A2B003B3A72 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A97D1125447A2A003B3A72 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		D661FFF7253F336100E42061 /* customLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customLoginTests.swift; sourceTree = "<group>"; };
 		D661FFF9253F336100E42061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D661FFFE253F336100E42061 /* customLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A97D1125447A2A003B3A72 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E121E2F5D092483DB65D3429 /* Pods-customLogin-customLoginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customLogin-customLoginUITests.debug.xcconfig"; path = "Target Support Files/Pods-customLogin-customLoginUITests/Pods-customLogin-customLoginUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E242010D4A30938C4BB91D57 /* Pods_customLogin_customLoginUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_customLogin_customLoginUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E410554CB6A064505D87FF16 /* Pods-customLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customLoginTests.release.xcconfig"; path = "Target Support Files/Pods-customLoginTests/Pods-customLoginTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				D6610026253F78BE00E42061 /* Utilities.swift */,
+				D6A97D1125447A2A003B3A72 /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -196,7 +199,6 @@
 				17D57F5CF6332E6073BECB83 /* Pods-customLoginTests.debug.xcconfig */,
 				E410554CB6A064505D87FF16 /* Pods-customLoginTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -446,6 +448,7 @@
 				D6610019253F33F600E42061 /* LogInViewController.swift in Sources */,
 				D661FFE3253F335700E42061 /* SceneDelegate.swift in Sources */,
 				D661001E253F340A00E42061 /* HomeViewController.swift in Sources */,
+				D6A97D1225447A2B003B3A72 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
