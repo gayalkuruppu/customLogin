@@ -53,7 +53,7 @@ class SignUpViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    func validateFeilds() -> String? {
+    func validateFields() -> String? {
         
         // check whether all the text fields are filled
         if firstNameTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
@@ -78,7 +78,7 @@ class SignUpViewController: UIViewController {
     @IBAction func signUpTapped(_ sender: Any) {
         
         // validate the fields
-        let error = validateFeilds()
+        let error = validateFields()
         
         if error != nil {
             showError(error!)
